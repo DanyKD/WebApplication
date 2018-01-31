@@ -67,6 +67,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="Images\image.jpg" />
+    <Content Include="Images\Kaffeparty.jpg" />
+    <Content Include="Images\lumio_black.jpg" />
+    <Content Include="Images\lumio_krups_red.jpg" />
+    <Content Include="Images\piccolo_krups_anthracite.jpg" />
+    <Content Include="Images\Varför oss.jpg" />
+    <Content Include="Images\VilkaGörVi.jpg" />
+    <Content Include="Images\VilkaÄrVi.jpg" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

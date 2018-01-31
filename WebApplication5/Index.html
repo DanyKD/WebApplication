@@ -1,49 +1,180 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-     <title>Index</title>       
-    <script src="Scripts/jquery-1.9.1.min.js"></script>
-    <link href="Content/bootstrap.min.css" rel="stylesheet"/>
+     <title>Index</title>
+    <script src="Scripts/jquery-1.9.1.js"></script>
+    <script src="Scripts/bootstrap.js"></script>    
+    <link href="Content/bootstrap.css" rel="stylesheet"/>
     <link href="StyleSheet.css" rel="stylesheet" />
-</head>
+    </head>
 <body>
     <header>
-        <h1>DKD</h1>
-    </header>
-    <footer>
-        <h6>Copyright © 2018 DKD. The DKD is not responsible for the content of external sites.</h6>
-    </footer>
+        <div id ="Main"class="jumbotron">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <h1 style="color:#75c4d2;">DKD</h1>
+                        <p>
+                            Etiam faucibus egestas ullamcorper. Sed aliquam tortor lacus, eu lacinia enim sodales sed.
+                            Proin ac consequat mi. Integer scelerisque turpis non lectus posuere, eget mollis nunc commodo.
+                            Curabitur nec leo vel lorem rhoncus euismod. Suspendisse mattis ex ac eros gravida, id pellentesque felis porta. Nam nec ornare libero.
+                            Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus lobortis euismod leo vel posuere.
+                            Nam risus quam, ultrices suscipit odio ut, tincidunt scelerisque justo. Mauris at odio facilisis, rutrum dui id, pulvinar erat.
+                            Nunc rutrum sed lectus in lobortis. Vestibulum finibus accumsan sapien, ornare eleifend lectus cursus a.
+                            Sed viverra ante a nulla ornare, nec faucibus turpis maximus. Nulla ornare ultrices diam.
+                        </p>
+                        <a href="#" class="btn btn-info">Continue</a>
+                    </div>
+                    <div class="col-lg-4">
+                        <img id="image" src="Images/image.jpg" alt="" class="img-responsive thumbnail" style="margin-top:25px;" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>   
     <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
+        <div class="container-fluid">
             <div class="navbar-header">
-                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">   
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#MainMenu" aria-expanded="false">   
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="#" class="navbar-brand">DKD</a>
+                <a class="navbar-brand"href="Index.html#Main">DKD</a>
             </div>
-            <div id="navbar" class=" navbar-collapse collapse">
-                <ul class=" nav navbar-nav">
-                    <li class=" active"><a href="Index.html">Index</a> </li>
-                    <li><a href="Producter.html">Producter</a> </li>
+            <div class="navbar-collapse collapse" id="MainMenu">               
+                <ul class=" nav navbar-nav">                   
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Index
+                        <span class="caret"></span></a>
+                        <ul class="dropdown-menu">                           
+                            <li><a href="#first">Vilka är vi?</a></li>
+                            <li><a href="#second">Vilka gör vi?</a></li>
+                            <li><a href="#third">Varför oss?</a></li>
+                            <li><a href="#fourth">Kaffeparty, så fungerar det!</a></li>
+                        </ul>
+                     </li>
+                        <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            Producter
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="Producter.html#Kaffemaskiner">Kaffemaskiner</a></li>
+                            <li><a href="Producter.html#Kaffeparty">Kaffeparty</a></li>              
+                        </ul>
+                    </li>
                     <li><a href="Om Oss.html">Om Oss</a> </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div>
-        <h3>Vilka är vi?
-           </h3>
-        <div>
-            <h3>Vilka gör vi?</h3>
-            <div>
-                <h3>Varför oss?</h3>
-                <div>
-                    <h3>Kaffeparty, så fungerar det!</h3>
-                </div>
+    <div id="first" class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <br />
+            <h1 class="page-header">Vilka är vi?</h1>               
+            <p>
+                Nunc eu luctus arcu, sit amet semper tortor. Etiam eu leo elit. Proin a lectus nunc.
+                Curabitur pellentesque nibh enim, vel rutrum enim sagittis vel. Mauris ultricies,
+                quam ac sollicitudin accumsan, arcu diam cursus velit, vel hendrerit lectus dui in velit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie dui at odio lacinia,
+                non interdum mauris varius. Fusce eget efficitur nulla. Suspendisse potenti. Aliquam aliquet scelerisque felis,
+                ullamcorper pharetra tellus pharetra vel. Aenean ultricies odio a enim eleifend, at imperdiet mauris viverra.
+                Donec eget vestibulum orci, in commodo est. Quisque id condimentum felis, at dapibus est.
+                Phasellus mattis et ligula quis pharetra. Quisque sed lacus eu libero vehicula imperdiet eu id risus.
+                Maecenas eros dui, vestibulum nec orci non, pretium molestie justo.
+                Nunc imperdiet elementum augue vitae imperdiet. Duis blandit erat vel neque fermentum,
+                in congue metus convallis. Nam nisi elit, tempor et libero sit amet, eleifend suscipit sem.
+                Sed egestas mollis urna, ut dignissim dolor. In imperdiet luctus ex non iaculis.
+                Nam eget egestas tortor, quis ornare massa. Nunc id lorem ultrices, commodo lacus vel,
+                vestibulum velit. Pellentesque varius arcu ac pharetra pellentesque. Vivamus et ipsum ex.
+                Suspendisse vestibulum quis ligula at finibus. Ut vitae lorem turpis.
+            </p>
+                <img src="Images/VilkaÄrVi.jpg" class="img-responsive thumbnail" alt="" /> 
+            </div>
+         </div>
+    </div>
+    <div id="second" class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <br />
+                <h1 class="page-header">Vilka gör vi?</h1>             
+                <p>
+                    Nunc eu luctus arcu, sit amet semper tortor. Etiam eu leo elit. Proin a lectus nunc.
+                    Curabitur pellentesque nibh enim, vel rutrum enim sagittis vel. Mauris ultricies,
+                    quam ac sollicitudin accumsan, arcu diam cursus velit, vel hendrerit lectus dui in velit.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie dui at odio lacinia,
+                    non interdum mauris varius. Fusce eget efficitur nulla. Suspendisse potenti. Aliquam aliquet scelerisque felis,
+                    ullamcorper pharetra tellus pharetra vel. Aenean ultricies odio a enim eleifend, at imperdiet mauris viverra.
+                    Donec eget vestibulum orci, in commodo est. Quisque id condimentum felis, at dapibus est.
+                    Phasellus mattis et ligula quis pharetra. Quisque sed lacus eu libero vehicula imperdiet eu id risus.
+                    Maecenas eros dui, vestibulum nec orci non, pretium molestie justo.
+                    Nunc imperdiet elementum augue vitae imperdiet. Duis blandit erat vel neque fermentum,
+                    in congue metus convallis. Nam nisi elit, tempor et libero sit amet, eleifend suscipit sem.
+                    Sed egestas mollis urna, ut dignissim dolor. In imperdiet luctus ex non iaculis.
+                    Nam eget egestas tortor, quis ornare massa. Nunc id lorem ultrices, commodo lacus vel,
+                    vestibulum velit. Pellentesque varius arcu ac pharetra pellentesque. Vivamus et ipsum ex.
+                    Suspendisse vestibulum quis ligula at finibus. Ut vitae lorem turpis.
+                </p>
+                <img src="Images/VilkaGörVi.jpg" class="img-responsive thumbnail" alt="" /> 
             </div>
         </div>
     </div>
+    <div id="third" class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <br />
+                <h1 class="page-header">Varför oss?</h1>                
+                <p>
+                    Nunc eu luctus arcu, sit amet semper tortor. Etiam eu leo elit. Proin a lectus nunc.
+                    Curabitur pellentesque nibh enim, vel rutrum enim sagittis vel. Mauris ultricies,
+                    quam ac sollicitudin accumsan, arcu diam cursus velit, vel hendrerit lectus dui in velit.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie dui at odio lacinia,
+                    non interdum mauris varius. Fusce eget efficitur nulla. Suspendisse potenti. Aliquam aliquet scelerisque felis,
+                    ullamcorper pharetra tellus pharetra vel. Aenean ultricies odio a enim eleifend, at imperdiet mauris viverra.
+                    Donec eget vestibulum orci, in commodo est. Quisque id condimentum felis, at dapibus est.
+                    Phasellus mattis et ligula quis pharetra. Quisque sed lacus eu libero vehicula imperdiet eu id risus.
+                    Maecenas eros dui, vestibulum nec orci non, pretium molestie justo.
+                    Nunc imperdiet elementum augue vitae imperdiet. Duis blandit erat vel neque fermentum,
+                    in congue metus convallis. Nam nisi elit, tempor et libero sit amet, eleifend suscipit sem.
+                    Sed egestas mollis urna, ut dignissim dolor. In imperdiet luctus ex non iaculis.
+                    Nam eget egestas tortor, quis ornare massa. Nunc id lorem ultrices, commodo lacus vel,
+                    vestibulum velit. Pellentesque varius arcu ac pharetra pellentesque. Vivamus et ipsum ex.
+                    Suspendisse vestibulum quis ligula at finibus. Ut vitae lorem turpis.
+                </p>
+                <img src="Images/Varför oss.jpg" class="img-responsive thumbnail" alt=""/>
+            </div>
+        </div>
+    </div>
+    <div id="fourth" class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <br />
+                <h1 class="page-header">Kaffeparty, så fungerar det!</h1>                
+                <p>
+                    Nunc eu luctus arcu, sit amet semper tortor. Etiam eu leo elit. Proin a lectus nunc.
+                    Curabitur pellentesque nibh enim, vel rutrum enim sagittis vel. Mauris ultricies,
+                    quam ac sollicitudin accumsan, arcu diam cursus velit, vel hendrerit lectus dui in velit.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie dui at odio lacinia,
+                    non interdum mauris varius. Fusce eget efficitur nulla. Suspendisse potenti. Aliquam aliquet scelerisque felis,
+                    ullamcorper pharetra tellus pharetra vel. Aenean ultricies odio a enim eleifend, at imperdiet mauris viverra.
+                    Donec eget vestibulum orci, in commodo est. Quisque id condimentum felis, at dapibus est.
+                    Phasellus mattis et ligula quis pharetra. Quisque sed lacus eu libero vehicula imperdiet eu id risus.
+                    Maecenas eros dui, vestibulum nec orci non, pretium molestie justo.
+                    Nunc imperdiet elementum augue vitae imperdiet. Duis blandit erat vel neque fermentum,
+                    in congue metus convallis. Nam nisi elit, tempor et libero sit amet, eleifend suscipit sem.
+                    Sed egestas mollis urna, ut dignissim dolor. In imperdiet luctus ex non iaculis.
+                    Nam eget egestas tortor, quis ornare massa. Nunc id lorem ultrices, commodo lacus vel,
+                    vestibulum velit. Pellentesque varius arcu ac pharetra pellentesque. Vivamus et ipsum ex.
+                    Suspendisse vestibulum quis ligula at finibus. Ut vitae lorem turpis.
+                </p>
+                <img src="Images/Kaffeparty.jpg" class="img-responsive thumbnail" alt=""/><br/><br /><br />
+            </div>
+        </div>
+    </div>
+    <footer class="footer navbar-fixed-bottom">
+        <h6>Copyright © 2018 DKD. The DKD is not responsible for the content of external sites.</h6>
+    </footer>
 </body>
 </html>

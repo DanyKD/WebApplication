@@ -2,35 +2,117 @@
 <html>
 <head>
     <title>Producter</title>
-    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/jquery-1.9.1.js"></script>
+    <script src="Scripts/bootstrap.js"></script>  
     <link href="Content/bootstrap.min.css" rel="stylesheet"/>
-    <link href="StyleSheet.css" rel="stylesheet"/>
+    <link href="StyleSheet.css" rel="stylesheet" />
     </head>
-<body>
-    <header>
-        <h1>DKD</h1>
-    </header>
-    <footer>
-        <h6>Copyright © 2018 DKD. The DKD is not responsible for the content of external sites.</h6>
-    </footer>
+<body>   
     <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
+        <div class="container-fluid">
             <div class="navbar-header">
-                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1" aria-expanded="false">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="#" class="navbar-brand">DKD</a>
+                <a class="navbar-brand" href="Index.html#Main">DKD</a>
             </div>
-            <div id="navbar" class=" navbar-collapse collapse">
+            <div class="navbar-collapse collapse" id="navbar1">
                 <ul class=" nav navbar-nav">
-                    <li><a href="Index.html">Index</a> </li>
-                    <li class=" active"><a href="Producter.html">Producter</a> </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            Index
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">                            
+                            <li><a href="Index.html#first">Vilka är vi?</a></li>
+                            <li><a href="Index.html#second">Vilka gör vi?</a></li>
+                            <li><a href="Index.html#third">Varför oss?</a></li>
+                            <li><a href="Index.html#fourth">Kaffeparty, så fungerar det!</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            Producter
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">                            
+                            <li><a href="Producter.html#Kaffemaskiner">Kaffemaskiner</a></li>
+                            <li><a href="Producter.html#Kaffeparty">Kaffeparty</a></li>
+                        </ul>
+                    </li>
                     <li><a href="Om Oss.html">Om Oss</a> </li>
                 </ul>
             </div>
         </div>
     </nav>
- </body>
+    <div id="Kaffemaskiner" class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <br />
+                <h1 class="page-header">Kaffemaskiner</h1>
+                
+                    <div class="col-md-6">
+                        <img src="Images/lumio_krups_red.jpg" class="img-responsive thumbnail" />
+                        <h4>
+                            NESCAFÉ® DOLCE GUSTO® LUMIO AUTOMATISK KAPSELKAFFEMASKIN RÖD FRÅN KRUPS®
+                        </h4>
+                        <h3> 999 KR </h3>
+                        <hr />                        
+                        </div>                        
+                   
+                        <div class="col-md-6">
+                            <img src="Images/lumio_black.jpg" class="img-responsive thumbnail" />    
+                            <h4>
+                             NESCAFÉ® DOLCE GUSTO® LUMIO AUTOMATISK KAPSELKAFFEMASKIN SVART FRÅN KRUPS®<br />
+                              </h4>
+                            <h3> 999 KR </h3>
+                            <hr />                                        
+                        </div>                   
+                        <div class="col-md-6">
+                            <img src="Images/lumio_krups_red.jpg" class="img-responsive thumbnail" />
+                            <h4>
+                                NESCAFÉ® DOLCE GUSTO® LUMIO AUTOMATISK KAPSELKAFFEMASKIN RÖD FRÅN KRUPS®
+                            </h4>
+                            <h3> 566 KR </h3>
+                            <hr />                                                     
+                        </div>
+                <div class="col-md-6">
+                    <img src="Images/piccolo_krups_anthracite.jpg" class="img-responsive thumbnail" />
+                    <h4>
+                        NESCAFÉ® DOLCE GUSTO® PICCOLO MANUELL KAPSELKAFFEMASKIN ANTHRACITE FRÅN KRUPS®
+                    </h4>
+                    <h3> 566 KR </h3>
+                    <hr />     
+                </div>
+            </div>
+       </div>
+    </div>
+    <div id="Kaffeparty" class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <br />
+                <h1 class="page-header">Kaffeparty</h1>
+                <div class="col-md-8">                    
+                    <h2>
+                        Privatpersoner 
+                        <br /><br /><br /><br /><br /><br />                         
+                    </h2>
+                    <hr />
+                </div>
+                <div class="col-md-8">
+                    <h2>
+                        Företag
+                        <br /><br /><br /><br /><br /><br />
+                    </h2>
+                    <hr />
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer navbar-fixed-bottom">
+        <h6>Copyright © 2018 DKD. The DKD is not responsible for the content of external sites.</h6>
+    </footer>
+</body>
 </html>
